@@ -4,8 +4,8 @@ const cors = require('cors');
 
 const { Vonage } = require('@vonage/server-sdk');
 const vonage = new Vonage({
-  apiKey: "70def1e9",
-  apiSecret: "dFS07Xk9BC2vLV5W"
+  apiKey: env.API_KEY,
+  apiSecret: env.API_SECRET
 });
 
 const app = express();
